@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">main_module</string>
+    <string name="splash_jump">跳过　2s</string>
+</resources>

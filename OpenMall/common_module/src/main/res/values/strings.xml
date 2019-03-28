@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">common_module</string>
+    <string name="main_home">首页</string>
+    <string name="main_classification">分类</string>
+    <string name="main_find">发现</string>
+    <string name="main_shopping">购物车</string>
+    <string name="main_mine">我的</string>
+
+    <!--权限提示对话框参数-->
+    <string name="permission_title">提示信息</string>
+    <string name="permission_message">当前应用缺少必要权限，该功能暂时无法使用。如若需要，请单击【确定】按钮前往设置中心进行权限授权。</string>
+    <string name="permission_negative_button">取消</string>
+    <string name="permission_positive_button">确定</string>
+
+</resources>

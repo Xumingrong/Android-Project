@@ -1,0 +1,90 @@
+/**
+ * 统一处理依赖问题
+ */
+ext {
+    android = [
+            compileSdkVersion: 27,
+            buildToolsVersion: "27.0.3",
+            minSdkVersion    : 21,
+            targetSdkVersion : 22,
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+
+    libsVersion = [
+            constraint_layout = "1.1.0",
+            logging_interceptor = "3.5.0",
+            retrofit = "2.3.0",
+            retrofit_converter_gson = "2.3.0",
+            retrofit_adapter_rxjava2 = "2.3.0",
+            gson = "2.8.0",
+            fastjson = "1.1.68.android",
+            rxandroid = "2.0.2",
+            rxjava = "2.1.8",
+            glide = "3.7.0",
+            eventbus = "3.0.0",
+            multidex = "1.0.1",
+            BaseRecyclerViewAdapterHelper = "2.9.30",
+            SmartRefreshLayout = "1.0.5.1",
+            banner = "1.4.10",
+            arouter_compiler = "1.1.4",
+            arouter_api = "1.3.1",
+            butterknife = "8.4.0",
+            butterknife_compiler = "8.4.0",
+            jiguang_jpush = "3.0.5",
+            jiguang_jcore = "1.1.2",
+            umeng_common = "1.5.0",
+            umeng_analytics = "7.5.0",
+            viseutils = "1.0.0"
+    ]
+    dependVersion = [
+            support: "27+",
+    ]
+
+    dependencies = [
+            appcompat_v4            : "com.android.support:support-v4:${dependVersion.support}",
+            appcompat_v7            : "com.android.support:appcompat-v7:${dependVersion.support}",
+            design                  : "com.android.support:design:${dependVersion.support}",
+            recyclerview            : "com.android.support:recyclerview-v7:${dependVersion.support}",
+            //可视化的方式来编写界面
+            constraint_layout       : "com.android.support.constraint:constraint-layout:$rootProject.constraint_layout",
+            //网络请求
+            okhttp3_logging         : "com.squareup.okhttp3:logging-interceptor:$rootProject.logging_interceptor",
+            //retrofit
+            retrofit                : "com.squareup.retrofit2:retrofit:$rootProject.retrofit",
+            retrofit_converter_gson : "com.squareup.retrofit2:converter-gson:$rootProject.retrofit_converter_gson",
+            retrofit_adapter_rxjava2: "com.squareup.retrofit2:adapter-rxjava2:$rootProject.retrofit_adapter_rxjava2",
+            gson                    : "com.google.code.gson:gson:$rootProject.gson",
+            fastjson                : "com.alibaba:fastjson:$rootProject.fastjson",
+            //rx
+            rxandroid               : "io.reactivex.rxjava2:rxandroid:$rootProject.rxandroid",
+            rxjava                  : "io.reactivex.rxjava2:rxjava:$rootProject.rxjava",
+            //图片加载
+            glide                   : "com.github.bumptech.glide:glide:$rootProject.glide",
+            //同步数据
+            eventbus                : "org.greenrobot:eventbus:$rootProject.eventbus",
+            //突破65535的限制
+            multidex                : "com.android.support:multidex:$rootProject.multidex",
+            //recyclerView适配器
+            brvah                   : "com.github.CymChad:BaseRecyclerViewAdapterHelper:$rootProject.BaseRecyclerViewAdapterHelper",
+            //下拉刷新，上拉加载
+            SmartRefreshLayout      : "com.scwang.smartrefresh:SmartRefreshLayout:$rootProject.SmartRefreshLayout",
+            //banner
+            banner                  : "com.youth.banner:banner:$rootProject.banner",
+            //路由跳转
+            arouter_compiler        : "com.alibaba:arouter-compiler:$rootProject.arouter_compiler",
+            arouter_api             : "com.alibaba:arouter-api:$rootProject.arouter_api",
+            //butterKnife
+            butterknife_compiler    : "com.jakewharton:butterknife-compiler:$rootProject.butterknife_compiler",
+            butterknife             : "com.jakewharton:butterknife:$rootProject.butterknife",
+            //极光推送
+            jiguang_jpush           : "cn.jiguang.sdk:jpush:$rootProject.jiguang_jpush",
+            jiguang_jcore           : "cn.jiguang.sdk:jcore:$rootProject.jiguang_jcore",
+            //umeng
+            umeng_common            : "com.umeng.sdk:common:$rootProject.umeng_common",
+            umeng_analytics         : "com.umeng.sdk:analytics:$rootProject.umeng_analytics",
+            //工具类
+            viseutils               : "com.vise.xiaoyaoyou:viseutils:$rootProject.viseutils",
+
+    ]
+}

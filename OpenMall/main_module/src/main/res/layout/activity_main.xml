@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/main_real_tab_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <android.support.v4.app.FragmentTabHost
+            android:id="@android:id/tabhost"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x80"
+            android:layout_gravity="bottom"
+            android:background="@color/color_white"
+            android:gravity="center">
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="0" />
+        </android.support.v4.app.FragmentTabHost>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:paddingRight="@dimen/x20"
+        android:paddingTop="@dimen/x60"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/splash_jump"
+            android:layout_width="@dimen/x128"
+            android:layout_height="@dimen/x48"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:padding="@dimen/x8"
+            android:text="@string/splash_jump"
+            android:textColor="@color/color_textWord_78"
+            android:textSize="@dimen/dimen_x12" />
+    </FrameLayout>
+</FrameLayout>

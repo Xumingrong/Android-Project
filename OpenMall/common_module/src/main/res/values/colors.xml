@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--十大主色调-->
+    <color name="color_transparent">#00FFFFFF</color><!--纯透明色 -->
+    <color name="color_half_transparent">#73FFFFFF</color><!--半透明色 -->
+
+    <color name="color_white">#FFFFFF</color><!--白色 -->
+    <color name="color_black">#000000</color> <!--黑色 -->
+    <color name="color_red">#FF0000</color> <!--红色 -->
+    <color name="color_orange">#FFA500</color> <!--橙色 -->
+    <color name="color_yellow">#FFFF00</color> <!--黄色 -->
+    <color name="color_green">#008000</color> <!--绿色 -->
+    <color name="color_cyan">#00FFFF</color> <!--青色 -->
+    <color name="color_blue">#0000FF</color> <!--蓝色 -->
+    <color name="color_purple">#800080</color> <!--紫色 -->
+
+    <!--项目中的色调-->
+    <color name="color_dominant_hue">#E9E9E9</color> <!-- 主色<所有按钮、强调重点但不可点击(价格、表单状态等)>-->
+    <color name="color_background">#FFFFFF</color><!-- 背景色(适用于所有背景、底板)-->
+
+    <color name="color_textWord_78">#787878</color> <!-- 字体颜色-->
+
+
+
+</resources>

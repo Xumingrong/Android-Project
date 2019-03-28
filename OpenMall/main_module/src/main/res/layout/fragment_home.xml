@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fragment_home_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_white"
+        android:scrollbars="horizontal" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/color_transparent"
+        app:contentInsetStart="0dp">
+
+        <TextView
+            android:id="@+id/fragment_home_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x96"
+            android:layout_marginRight="@dimen/x96"
+            android:background="@drawable/shape_recta_search"
+            android:drawableLeft="@drawable/search"
+            android:drawablePadding="@dimen/x10"
+            android:gravity="center|left"
+            android:paddingBottom="@dimen/x12"
+            android:paddingLeft="@dimen/x12"
+            android:paddingTop="@dimen/x12"
+            android:text="搜索喜欢的商品"
+            android:textColor="@color/color_textWord_78"
+            android:textSize="@dimen/dimen_x12" />
+    </android.support.v7.widget.Toolbar>
+
+
+</FrameLayout>
+
